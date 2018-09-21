@@ -37,6 +37,7 @@
     padding: 0
     background: transparent center center no-repeat
     transform: translateZ(0)
+    will-change: transform, opacity
 
 body .vegas-container
     overflow: hidden !important
@@ -60,7 +61,7 @@ body.vegas-container > .vegas-slide
     z-index: -1
 
 /* Target Safari IOS7+ in order to add 76px */
-_::full-page-media, _:future,
-:root body.vegas-container > .vegas-slide,
-:root body.vegas-container > .vegas-overlay
-    bottom: -76px
+// _::full-page-media, _:future,
+// :root body.vegas-container > .vegas-slide,
+// :root body.vegas-container > .vegas-overlay
+//     bottom: -76px
